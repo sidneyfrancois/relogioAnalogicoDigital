@@ -98,6 +98,7 @@ body {
 	border-radius: 40px;
 	border: 2px solid rgba(0,0,0,0.5);
 }
+
 #digital div 
 {
 	position: relative;
@@ -105,4 +106,21 @@ body {
 	text-align: center;
 	color: var(--clr);
 	opacity: 0.75;
+}
+
+#digital div:last-child 
+{
+	font-size: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 550;
+}
+
+#digital div:nth-child(1):after, 
+#digital div:nth-child(2):after 
+{
+	content: ':';
+	position: absolute;
+	right: -4px;
 }
