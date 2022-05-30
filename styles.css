@@ -21,3 +21,22 @@ body {
   border: 2px solid black;
   position: relative;
 }
+
+.clock span {
+  --rotation: 0;
+
+  position: absolute;
+  inset: 20px;
+  text-align: center;
+	transform: rotate(calc(30deg * var(--i)));
+  font-size: 1.2rem;
+}
+
+.clock span b 
+{
+	font-size: 2em;
+	opacity: 0.65;
+	font-weight: 600;
+	display: inline-block;
+	transform: rotate(calc(-30deg * var(--i)));
+}
