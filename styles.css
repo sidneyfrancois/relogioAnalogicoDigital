@@ -85,3 +85,24 @@ body {
   height: 25%;
   background-color: black;
 }
+
+/* Relógio Digital */
+#digital 
+{
+  margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	padding: 10px 10px;
+	font-size: 2em;
+	font-weight: 600;
+	border-radius: 40px;
+	border: 2px solid rgba(0,0,0,0.5);
+}
+#digital div 
+{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: var(--clr);
+	opacity: 0.75;
+}
